@@ -1,3 +1,7 @@
+import time
+numbers = [62,83,18,53,7,17,95,86,47,69,25,28]
+numbers2 = [62,83,18,53,7,17,95,86,47,69,25,28]
+
 def shellSort(lista):
     gaps = [701, 301, 132, 57, 23, 10, 4, 1]
     # gaps = [5, 3, 1]
@@ -15,8 +19,16 @@ def shellSort(lista):
                     lista[prvi+gap]=element
                     drugi=drugi+gap
                     prvi=drugi-gap
-            print(gap)
-            print(lista)
+
+start = time.time()
+shellSort(numbers)
+end = time.time()
+print(str(end-start))
+
+start = time.time()
+numbers2.sort()
+end = time.time()
+print(str(end-start))
 
 def histogram(rec):
     recnik={}
