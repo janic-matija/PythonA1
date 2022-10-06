@@ -1,22 +1,5 @@
-abc
-def
-g
-
-hi
-j k l
-...m
+SYRMIA
+python i pycharm
 
 
-
-
-
-
-
-
-
-
-
-
-n o pq r                              s	t
-uvw xyz
-
+brb
